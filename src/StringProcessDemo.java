@@ -18,7 +18,7 @@ public class StringProcessDemo {
         System.out.println(str1.equalsIgnoreCase(str2));
 
         String str = "";
-        //  equalsIgnoreCase() method to compare them
+        //   isEmpty() method to check whether it is empty
         System.out.println(str.isEmpty());
 
 
