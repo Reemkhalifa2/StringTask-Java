@@ -3,11 +3,11 @@ public class StringPositionDemo {
         String str = " Hello there";
         System.out.println(str);
 
-        //indexOf() method to find the position of a character or word
-        System.out.println("position of o" +str.indexOf("o"));
+        // startsWith() method to check whether the string starts with a specific word
+        System.out.println(str.startsWith("He"));
+        //endsWith() method to check whether the string ends with a specific word
+        System.out.println(str.endsWith("ee"));
 
-        // replace() method to change one word in the string
-        System.out.println("replace there with every one: "+ str.replace("there" , "every one"));
 
 
     }
