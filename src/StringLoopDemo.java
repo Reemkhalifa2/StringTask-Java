@@ -10,7 +10,7 @@ public class StringLoopDemo {
         for(int i =0 ; i<size ; i++){
             char ch = str.charAt(i);
             System.out.println(ch);
-            if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+            if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'||ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U'){
                 count ++;
             }
             if(Character.isDigit(ch)){
